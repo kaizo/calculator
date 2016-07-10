@@ -1,0 +1,56 @@
+<html>
+
+<head>
+	<title>
+		Calculator
+	</title>
+	<link rel="stylesheet" type="text/css" href="styles/calculator.css">
+</head>
+
+<body>
+
+	<table class="main_table">
+		<tr>
+			<td id="operation" class="display_screen " colspan="4"></td>
+		</tr>
+		<tr>
+			<td id="display" class="display_screen" colspan="4">0</td>
+		</tr>
+		<tr>
+			<td title="Clear (Escape)" id="clear" class="clear_button">C</td>
+			<td title="Cancel Input (Backspace)" id="backspace" class="clear_button">&#8592;</td>
+			<td title="Exponenitation (e)" id="exp" class="operation_button">x<sup>y</sup></td>
+			<td title="Division (/)" id="div" class="operation_button">/</td>
+		</tr>
+		<tr>
+			<td id="num7" class="number_button">7</td>
+			<td id="num8" class="number_button">8</td>
+			<td id="num9" class="number_button">9</td>
+			<td title="Multiplication (*)" id="mult" class="operation_button">*</td>
+		</tr>
+		<tr>
+			<td id="num4" class="number_button">4</td>
+			<td id="num5" class="number_button">5</td>
+			<td id="num6" class="number_button">6</td>
+			<td title="Substraction (-)" id="minus" class="operation_button">-</td>
+		</tr>
+		<tr>
+			<td id="num1" class="number_button">1</td>
+			<td id="num2" class="number_button">2</td>
+			<td id="num3" class="number_button">3</td>
+			<td title="Addition (+)" id="plus" class="operation_button">+</td>
+		</tr>
+		<tr>
+			<td id="num0" class="number_button" colspan="2">0</td>
+			<td title="Dot (.)" id="dot" class="number_button">.</td>
+			<td title="Result (Enter or =)" id="equal" class="operation_button">=</td>
+		</tr>
+	</table>
+	<script src="vendor/big.min.js"></script>
+	<script src="js/io.js"></script>
+	<script src="js/calculator.js"></script>
+	<script src="js/operationData.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>

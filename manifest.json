@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Calculator",
+  "description": "This externsion adds a calculator to the toolbar",
+  "version": "1.0",
+  "icons": {
+    "16": "calculator.png",
+    "48": "calculator.png",
+    "128": "calculator.png"
+  },
+  "browser_action": {
+    "default_icon": "calculator.png",
+    "default_popup": "index.html"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}

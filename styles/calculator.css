@@ -1,0 +1,81 @@
+html {
+    margin: 0;
+    overflow: hidden;
+    width: 445px;
+    padding: 0;
+}
+body {
+    margin: 0;
+    overflow: hidden;
+    width: 445px;
+    padding: 0;
+}
+sup {
+    font-size: small;
+    margin-left: 2px;
+}
+.main_table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-color: #000;
+}
+.main_table td {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: #000;
+    color: #333;
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+.main_table td:hover {
+    background-color: gray;
+    color: white;
+}
+#display:hover, #operation:hover {
+    background-color: black;
+}
+.main_table .clear_button {
+    font-family: Arial, Helvetica, sans-serif !important;
+    background-color: #efefef;
+    text-align: center;
+    vertical-align: middle;
+}
+.main_table .operation_button {
+    font-family: Arial, Helvetica, sans-serif !important;
+    background-color: #f8a102;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+}
+.main_table .number_button {
+    font-family: Arial, Helvetica, sans-serif !important;
+    text-align: center;
+    vertical-align: middle;
+}
+.main_table .display_screen {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 32px;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: right;
+    vertical-align: bottom;
+    cursor: default;
+    padding-right: 15px;
+    height: 59px;
+    overflow: hidden;
+    max-width: 423px;
+    text-overflow: ellipsis;
+}
+#operation {
+    height: 40;
+    font-size: 15;
+    padding-bottom: 3px;
+    padding-right: 20px;
+}
